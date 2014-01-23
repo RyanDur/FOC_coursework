@@ -464,34 +464,34 @@ find the decimal number represented by this word assuming that it is
           S = -1\\
           N = 1022
            \begin{itemize}
-             \item{
+             \item[]{
                 1022/2 = 511 $\to$ 0
              }
-             \item{
+             \item[]{
              	511/2 = 255.5 $\to$ 1 
              }
-             \item{
+             \item[]{
              	255/2 = 127.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	127/2 = 63.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	63/2 = 31.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	31/2 = 15.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	15/2 = 7.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	7/2 = 3.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	3/2 = 1.5 $\to$ 1
              }
-             \item{
+             \item[]{
              	1/2 = 0.5 $\to$ 1
              }
            \end{itemize}
@@ -508,7 +508,36 @@ find the decimal number represented by this word assuming that it is
 
 \begin{itemize}
     \item[] {
-       \fbox{\parbox{\textwidth}{}}
+       \fbox{\parbox{\textwidth}{
+       		 
+        		\begin{tabular}{|c|c|c|} 
+		\hline
+		S & E (Exponent) & F (Fraction) \\ 
+		\hline
+		1bit & 8 bits & 23 bits \\
+		\hline
+		\end{tabular}\\
+		Bias = 127 \\
+		S = 1 since it is a negative number. \\
+		\\
+		32.75\\
+		32 = 10000 in binary\\
+		0.75 $\times$ 2 = 1.5 $\to$ 1 \\
+		0.5 $\times$ 2 = 1 $\to$ 1 \\
+		1.1 \\
+		\\
+		100001.1
+		1.000011 $\times$ $2^5$ = 100001.1 \\
+		E = 5 + 127 = 132 = 10000100 \\
+		F = 000011 \\ \\
+		\begin{tabular}{|c|c|c|} 
+		\hline
+		1 & 100 0010 0 & 000 0110 0000 0000 0000 0000 \\
+		\hline
+		S & E (Exponent) & F (Fraction) \\ 
+		\hline
+		\end{tabular}
+       }}
     }
 \end{itemize}
 
@@ -516,7 +545,32 @@ find the decimal number represented by this word assuming that it is
 
 \begin{itemize}
     \item[] {
-       \fbox{\parbox{\textwidth}{}}
+       \fbox{\parbox{\textwidth}{
+ 	  \begin{itemize}
+             \item[]{
+             	77/2 = 38.5 $\to$ 1
+             }
+             \item[]{
+             	38/2 = 19 $\to$ 0
+             }
+             \item[]{
+             	19/2 = 9.5 $\to$ 1
+             }
+             \item[]{
+             	9/2 = 4.5 $\to$  1
+             }
+             \item[]{
+             	4/2 = 2 $\to$ 0
+             }
+             \item[]{
+             	2/2 = 1 $\to$ 0
+             }
+             \item[]{
+             	1/2 = 0.5 $\to$ 1
+             }
+          \end{itemize}       
+          Answer = 0000\ 0000\ 0000\ 0000\ 0000\ 0000\ 0100\ 1101
+       }}
     }
 \end{itemize}
 
