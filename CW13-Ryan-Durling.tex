@@ -457,9 +457,69 @@ find the decimal number represented by this word assuming that it is
 \begin{enumerate}
 \item[(a)] $-1022$ as a two's complement 32-bit binary number;
 
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{
+         First turn it into a positive binary number:\\
+          S = -1\\
+          N = 1022
+           \begin{itemize}
+             \item{
+                1022/2 = 511 $\to$ 0
+             }
+             \item{
+             	511/2 = 255.5 $\to$ 1 
+             }
+             \item{
+             	255/2 = 127.5 $\to$ 1
+             }
+             \item{
+             	127/2 = 63.5 $\to$ 1
+             }
+             \item{
+             	63/2 = 31.5 $\to$ 1
+             }
+             \item{
+             	31/2 = 15.5 $\to$ 1
+             }
+             \item{
+             	15/2 = 7.5 $\to$ 1
+             }
+             \item{
+             	7/2 = 3.5 $\to$ 1
+             }
+             \item{
+             	3/2 = 1.5 $\to$ 1
+             }
+             \item{
+             	1/2 = 0.5 $\to$ 1
+             }
+           \end{itemize}
+           Now we have 0...0011\ 1111\ 1110\\
+           Since it needs to be a two's compliment number we need to use the algorithm from before to flip the bits.\\
+           Which becomes: 1...1100\ 0000\ 0010
+           Since it is a negative number we leave the first character as a one:\\ \\
+           Answer = 1111\ 1111\ 1111\ 1111\ 1111\ 1100\ 0000\ 0010
+       }}
+    }
+\end{itemize}
+
 \item[(b)] $-32.75$ as an IEEE 754 32-bit floating-point number;
 
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{}}
+    }
+\end{itemize}
+
 \item[(c)] $77$ as a two's complement 32-bit binary number.
+
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{}}
+    }
+\end{itemize}
+
 \end{enumerate}
 
 

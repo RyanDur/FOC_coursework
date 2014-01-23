@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  23 JAN 2014 20:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  23 JAN 2014 22:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -905,11 +905,21 @@ Overfull \hbox (58.26508pt too wide) in paragraph at lines 443--445
 [][] 
  []
 
-<xymatrix 4x1 228> <xymatrix 5x1 427> [6] [7] [8] (./CW13-Ryan-Durling.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+
+ []
+
+
+Overfull \hbox (58.26508pt too wide) in paragraph at lines 503--505
+[][] 
+ []
+
+[6] <xymatrix 4x1 228> <xymatrix 5x1 427> [7] [8] (./CW13-Ryan-Durling.aux) ) 
 Here is how much of TeX's memory you used:
  17912 strings out of 493633
  359555 string characters out of 3143378
- 530494 words of memory out of 3000000
+ 529953 words of memory out of 3000000
  20805 multiletter control sequences out of 15000+200000
  18181 words of font info for 79 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -932,7 +942,7 @@ live/2011/texmf-dist/fonts/type1/public/xypic/xyatip10.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb></usr/local/texlive/2011/
 texmf-dist/fonts/type1/public/xypic/xycmat11.pfb></usr/local/texlive/2011/texmf
 -dist/fonts/type1/public/xypic/xycmbt11.pfb>
-Output written on CW13-Ryan-Durling.pdf (8 pages, 161026 bytes).
+Output written on CW13-Ryan-Durling.pdf (8 pages, 162157 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
