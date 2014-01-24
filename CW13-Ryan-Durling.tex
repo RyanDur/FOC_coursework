@@ -516,7 +516,7 @@ find the decimal number represented by this word assuming that it is
 		\hline
 		1bit & 8 bits & 23 bits \\
 		\hline
-		\end{tabular}\\
+		\end{tabular}\\ \\
 		Bias = 127 \\
 		S = 1 since it is a negative number. \\
 		\\
@@ -578,7 +578,7 @@ find the decimal number represented by this word assuming that it is
 
 
 %********************
-
+\newpage
 \bigskip
 \noindent
 %
@@ -598,16 +598,116 @@ find the decimal number represented by this word assuming that it is
 Give all the computations of the automaton on the input strings 
 $aab$, $aba$, and $\varepsilon$, 
 and determine if the strings are accepted.
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{
+ 	  \begin{itemize}
+	    
+             \item[]{
+             Input: $aab$\\
+             Computation: 
+             	\begin{itemize}
+			\item{
+				(s, aab), (p, aab), (p, ab), (s, b), (s, $\varepsilon$) Accepted
+			}
+			\item{
+				(s, aab), (p, aab), (s, ab), (p, ab), (s, b), (s, $\varepsilon$) Accepted
+			}
+			\item{
+				(s, aab), (p, aab), (p, ab), (p, b) stuck
+			}
+			\item{
+				(s, aab), (p, aab), (p, ab), (s, b), (p, b) stuck
+			}
+			\item{
+				(s, aab), (p, aab), (s, ab),  (p, ab),  (s, b), (s, $\varepsilon$) Accepted \\
+			}
+		\end{itemize}
+		word $aab$ is Accepted.\\
+             }
+             
+             \item[]{
+             Input: $aba$\\
+             Computation: 
+             	\begin{itemize}
+			\item{
+				(s, aba), (p, aba), (p, ba) stuck
+			}
+			\item{
+				(s, aba), (p, aba), (s, ba), (s, a), (p, a), (p, $\varepsilon$) stuck
+			}
+			\item{
+				(s, aba), (p, aba), (s, ba), (s, a), (p, a), (s, $\varepsilon$) Accepted
+			}
+			\item{
+				(s, aba), (p, aba), (s, ba), (p, ba) stuck \\ 
+			}
+		\end{itemize}
+		word $aba$ is Accepted.\\
+             }
+             
+             \item[]{
+             Input: $\varepsilon$\\
+             Computation: 
+             	\begin{itemize}
+			\item{
+				(s, $\varepsilon$), (p, $\varepsilon$) stuck
+			}
+			\item{
+				(s, $\varepsilon$) Accepted\\
+			}			
+		\end{itemize}
+		word  $\varepsilon$ is Accepted.\\
+             }           
+          \end{itemize}
+      }}
+   }
+\end{itemize}
 
 \item[(b)]
 Describe the language accepted by the automaton in English.
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{
+ 	  \begin{itemize}
+             \item[]{
+             	The language accepts any amount of a's and b's and the empty word.
+             }
+          \end{itemize}
+      }}
+   }
+\end{itemize}
 
 \item[(c)]
 Describe the language accepted by the automaton by means of a
 regular expression.
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{
+ 	  \begin{itemize}
+             \item[]{
+             	(a $\cup$ b)*
+             }
+          \end{itemize}
+      }}
+   }
+\end{itemize}
 
 \item[(d)]
 Describe the language accepted by the automaton by means of a context-free grammar.
+\end{itemize}
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{
+ 	  \begin{itemize}
+             \item[]{
+             	S $\to$ $\varepsilon$ \\
+		S $\to$ aS \\
+		S $\to$ bS 
+             }
+          \end{itemize}
+      }}
+   }
 \end{itemize}
 
 %*******************
