@@ -738,7 +738,7 @@ equivalent deterministic finite automaton.  Show your working.
 %
 $$
 \begin{tabular}{c || c c}
-  & \textsl{$A$} & \textsl{$B$}\\ \hline
+  $\delta$ & \textsl{$A$} & \textsl{$B$}\\ \hline
   s & {s,t} & $\varepsilon$ \\
   t & t & {s,r} \\
   r & t & r \\
@@ -1056,6 +1056,25 @@ S \to SS, \quad S \to L0L0L, \qquad  L \to \varepsilon, \quad L \to 1 L, \quad L
 		L $\to$ 0L1 \\
 		L $\to$ 1L0 \\
 		L $\to$ $\varepsilon$
+		
+          	\begin{center}
+	      	  \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
+		  	\node[state, initial] (s) {$s$};
+			\node[state] [right=of s] (p) {$0 == 1$};
+			\node[state, accepting, fill=yellow] [right=of p] (t) {$t$};
+			\node[state] [below=of s] (r) {$1 == 0$};
+			\node[state, accepting, fill=yellow] [right=of r] (q) {$q$};
+			
+			\path[->]
+		  	       (s) edge node {\tiny {1, $\varepsilon$/$\bot$}} (p)
+			       (s) edge node {\tiny {0, $\varepsilon$/$\bot$}} (r)
+			       (p) edge [loop above] node {\tiny {0, 1/$\varepsilon$ $\cup$ 1, $\varepsilon$/1}} (p)
+			       (p) edge node {\tiny {$\varepsilon$, $\bot$/$\varepsilon$}} (t)
+			       (r) edge [loop left] node {\tiny {1, 0/$\varepsilon$ $\cup$ 1, $\varepsilon$/0}} (r)
+			       (r) edge node {\tiny {$\varepsilon$, $\bot$/$\varepsilon$}} (q)
+			;
+		  \end{tikzpicture}
+          	\end{center}
         }
      }
   }

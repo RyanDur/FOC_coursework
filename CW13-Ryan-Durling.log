@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 20:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 21:42
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,86 +1128,92 @@ Overfull \hbox (65.56506pt too wide) in paragraph at lines 1035--1037
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1079
 
  []
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 1060--1062
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 1079--1081
 [][] 
  []
 
 [11]
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1099--1101
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1118--1120
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1111--1113
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1130--1132
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1123--1125
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1142--1144
 [][] 
  []
 
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 1138--1140
-[][] 
- []
-
-
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1173--1175
-[][] 
- []
-
-
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1184--1186
-[][] 
- []
-
-
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1222--1224
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 1157--1159
 [][] 
  []
 
 [12]
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1245--1247
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1192--1194
 [][] 
  []
 
-[13] (./CW13-Ryan-Durling.aux) ) 
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1203--1205
+[][] 
+ []
+
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1241--1243
+[][] 
+ []
+
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1264--1266
+[][] 
+ []
+
+[13] [14] (./CW13-Ryan-Durling.aux) ) 
 Here is how much of TeX's memory you used:
- 18626 strings out of 493633
- 381888 string characters out of 3143378
- 573800 words of memory out of 3000000
- 21506 multiletter control sequences out of 15000+200000
+ 18627 strings out of 493633
+ 381909 string characters out of 3143378
+ 573813 words of memory out of 3000000
+ 21507 multiletter control sequences out of 15000+200000
  18885 words of font info for 81 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 63i,20n,76p,3249b,971s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsl10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmss12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xy
-atip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xybtip1
-0.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmat11.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmbt11.pfb>
-Output written on CW13-Ryan-Durling.pdf (13 pages, 186024 bytes).
+ 63i,20n,76p,3249b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2011/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsl10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss12.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/x
+yatip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xybtip
+10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmat11.pf
+b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmbt11.pfb>
+Output written on CW13-Ryan-Durling.pdf (14 pages, 202846 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
