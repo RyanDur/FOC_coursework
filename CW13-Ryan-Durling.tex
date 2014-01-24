@@ -1197,13 +1197,22 @@ Give the complete transition table of this Turing machine.
 			s & 0 & s & $\to$ \\
 			s & 1 & p & $\to$ \\
 			s & $\blank$ & h & $\blank$ \\
+			p & $\triangleright$ & s & $\to$ \\
 			p & 0 & p & $\to$ \\
 			p & 1 & p & $\to$ \\
 			p & $\blank$ & t & $\gets$ \\
+			t & $\triangleright$ & s & $\to$ \\
 			t & 0 & h & $\blank$ \\
 			t & 1 & a & $\to$ \\
+			t & $\blank$ & h & $\blank$ \\
+			a & $\triangleright$ & s & $\to$ \\
+			a & 0 & h & 0 \\
+			a & 1 & h & 1 \\
 			a & $\blank$ & a & 0 \\
 			a & 0 & q & $\to$ \\
+			q & $\triangleright$ & s & $\to$ \\
+			q & 0 & h & 0 \\
+			q & 1 & h & 1 \\
 			q & $\blank$ & h & 0 \\
 			\hline
 		\end{tabular}
