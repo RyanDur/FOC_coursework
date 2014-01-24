@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 18:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 19:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,12 +1157,32 @@ Overfull \hbox (41.47504pt too wide) in paragraph at lines 1137--1139
 [][] 
  []
 
-[12] (./CW13-Ryan-Durling.aux) ) 
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1172--1174
+[][] 
+ []
+
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1183--1185
+[][] 
+ []
+
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1212--1214
+[][] 
+ []
+
+[12]
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1235--1237
+[][] 
+ []
+
+[13] (./CW13-Ryan-Durling.aux) ) 
 Here is how much of TeX's memory you used:
- 18625 strings out of 493633
- 381876 string characters out of 3143378
+ 18626 strings out of 493633
+ 381888 string characters out of 3143378
  573802 words of memory out of 3000000
- 21505 multiletter control sequences out of 15000+200000
+ 21506 multiletter control sequences out of 15000+200000
  18885 words of font info for 81 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  63i,20n,76p,3249b,971s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1184,10 +1204,10 @@ bols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xy
 atip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xybtip1
 0.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmat11.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmbt11.pfb>
-Output written on CW13-Ryan-Durling.pdf (12 pages, 182992 bytes).
+Output written on CW13-Ryan-Durling.pdf (13 pages, 185314 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

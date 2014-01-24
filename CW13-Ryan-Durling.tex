@@ -978,7 +978,7 @@ S \to SS, \quad S \to L0L0L, \qquad  L \to \varepsilon, \quad L \to 1 L, \quad L
 		L $\to$ 10L01\uline{L} replace with L $\to$ $\varepsilon$ = 10L01 \\
 		L $\to$ 10\uline{L}01 replace with L $\to$ 1L = 101L01 \\
 		L $\to$ 101\uline{L}01 replace with L $\to$ 1L = 1011L01 \\
-		L $\to$ 1011\uline{L}01 replace with L $\to$ $\varepsilon$= 101101 \\		
+		L $\to$ 1011\uline{L}01 replace with L $\to$ $\varepsilon$ = 101101 \\		
         }
      }
   }
@@ -1167,6 +1167,7 @@ f(n)=\left\{
     \item[] {
       \fbox{
         \parbox{\textwidth}{
+        		The function is turing computable if there exists a Turing machine that computes it. This means the machine can stop on any given input over the alphabet.
         }
      }
   }
@@ -1177,6 +1178,7 @@ f(n)=\left\{
     \item[] {
       \fbox{
         \parbox{\textwidth}{
+        		Reading the tape from left to right, move across the tape all the way to the right. If you never encounter a one then the tape is empty or full of zero's. If a one is encountered, at the end move left one. If it is a one move right and append a zero and move right again and append another zero to multiply the number by four. If it is a zero, remove the zero to divide by two.
         }
      }
   }
@@ -1188,6 +1190,24 @@ Give the complete transition table of this Turing machine.
     \item[] {
       \fbox{
         \parbox{\textwidth}{
+            \begin{center}
+        		\begin{tabular}{|c|c||c|c|}
+			\hline
+			s & $\triangleright$ & s & $\to$ \\
+			s & 0 & s & $\to$ \\
+			s & 1 & p & $\to$ \\
+			s & $\blank$ & h & $\blank$ \\
+			p & 0 & p & $\to$ \\
+			p & 1 & p & $\to$ \\
+			p & $\blank$ & t & $\gets$ \\
+			t & 0 & h & $\blank$ \\
+			t & 1 & a & $\to$ \\
+			a & $\blank$ & a & 0 \\
+			a & 0 & q & $\to$ \\
+			q & $\blank$ & h & 0 \\
+			\hline
+		\end{tabular}
+	    \end{center}
         }
      }
   }
@@ -1198,6 +1218,19 @@ Give the complete transition table of this Turing machine.
     \item[] {
       \fbox{
         \parbox{\textwidth}{
+        		\begin{itemize}
+			\item{
+				(s, $\triangleright\uline{0}$), (s, $\triangleright0\uline{\blank}$), (h, $\triangleright0\uline{\blank}$)
+			}
+			
+			\item{
+				(s, $\triangleright\uline{1}1$), (p, $\triangleright1\uline{1}$), (p, $\triangleright11\uline{\blank}$), (t, $\triangleright1\uline{1}\blank$), (a, $\triangleright11\uline{\blank}$), (a, $\triangleright11\uline{0}$), (a, $\triangleright11\uline{0}$), (q, $\triangleright110\uline{\blank}$), (h, $\triangleright110\uline{0}$) 
+			}
+			
+			\item{
+				(s, $\triangleright\uline{1}00$), (p, $\triangleright1\uline{0}0$), (p, $\triangleright10\uline{0}$), (p, $\triangleright100\uline{\blank}$), (t, $\triangleright10\uline{0}\blank$), (h, $\triangleright10\uline{\blank}\blank$)
+			}
+		\end{itemize}
         }
      }
   }
