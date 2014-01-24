@@ -14,6 +14,8 @@
 \usetikzlibrary{shapes.geometric}
 \usetikzlibrary{arrows}
 \usepackage[normalem]{ulem}
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
 
 \newcommand{\blank}{\setlength{\unitlength}{1pt}\begin{picture}(6,4.2)
 \put(1,.5){\line(1,0){4}}
@@ -711,7 +713,7 @@ Describe the language accepted by the automaton by means of a context-free gramm
 \end{itemize}
 
 %*******************
-
+\newpage
 \medskip
 \noindent
 %
@@ -730,8 +732,89 @@ equivalent deterministic finite automaton.  Show your working.
 & \
 }
 \]
-What is the language of this automaton.
+\begin{itemize}
+    \item[] {
+       \fbox{\parbox{\textwidth}{
+%
+$$
+\begin{tabular}{c || c c}
+  & \textsl{$A$} & \textsl{$B$}\\ \hline
+  s & {s,t} & $\varepsilon$ \\
+  t & t & {s,r} \\
+  r & t & r \\
+  {s,t} & {s,t} & {s,r} \\
+  {s,r} & {s,t} & r \\
+  {t,r} & t & {s,r} \\
+  {s,t,r} & {s,t} & {s,r} \\
+  $\varepsilon$ & $\varepsilon$ & $\varepsilon$
+\end{tabular}
+$$
+%
+\begin{center}
+  \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
+      
+      \node[state,accepting, fill=yellow] (r) {$r$};   
+      \node[state,accepting, fill=yellow] (t) [right=of r] {$t$};
+      \node[state, initial,accepting, fill=yellow] (a) [below=of r] {$s,r$};       
+      \node[state,accepting, fill=yellow, draw=red] (c) [right=of a] {$t,r$};
+      \node[state,accepting, fill=yellow, draw=red] (d) [below=of a] {$s,t,r$}; 
+      \node[state,accepting, fill=yellow] (b) [right=of d] {$s,t$};   
+      \node[state](s) [right=of b, draw=red](s) {$\textsl{$s$}$};
+      \node[state, accepting, fill=yellow, draw=red] (e) [right=of s]  {$\textsl{$\varepsilon$}$};
 
+       \path[->] 
+          (s) edge node {\tiny b} (e)       
+          (e) edge [loop above] node {\tiny a} (e)
+          (e) edge [loop right] node {\tiny b} (e)
+          (s) edge node [swap] {\tiny a} (b)
+          (b) edge [bend left, swap] node {\tiny b} (a)
+          (a) edge [bend left, swap] node {\tiny a} (b)
+          (a) edge node {\tiny b} (r)
+          (b) edge [loop below] node {\tiny a} (b)
+          (c) edge node [swap] {\tiny b} (a)
+          (c) edge node [swap] {\tiny a} (t)
+          (t) edge node [swap] {\tiny b} (a)
+          (t) edge [loop above] node {\tiny a} (t)
+          (r) edge node {\tiny a} (t)
+          (r) edge [loop above] node {\tiny b} (r)
+          (d) edge node [swap] {\tiny a} (b)
+          (d) edge node {\tiny b} (a)          
+      ;
+  \end{tikzpicture}
+\end{center}
+
+\begin{center}
+  \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
+	\node[state, initial,accepting, fill=yellow] (a) {$s,r$}; 
+	 \node[state,accepting, fill=yellow] (b) [below=of a] {$s,t$}; 
+	 \node[state,accepting, fill=yellow] (r) [right=of a] {$r$}; 
+	 \node[state,accepting, fill=yellow] (t) [right=of b] {$t$};
+	 
+	  \path[->] 
+	    (b) edge [bend left, swap] node {\tiny b} (a)
+            (a) edge [bend left, swap] node {\tiny a} (b)
+            (t) edge [loop right] node {\tiny a} (t)
+            (t) edge node [swap] {\tiny b} (a)
+            (r) edge [loop above] node {\tiny b} (r)
+            (r) edge node {\tiny a} (t)
+            (a) edge node {\tiny b} (r)
+            (b) edge [loop left] node {\tiny a} (b)
+	  ;
+  \end{tikzpicture}
+\end{center}
+    }}
+   }
+\end{itemize}
+What is the language of this automaton.
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+      		This language accepts any number of a's and b's.
+        }
+     }
+  }
+\end{itemize}
 
 %***********************
 
