@@ -746,10 +746,11 @@ $$
   {s,r} & {s,t} & r \\
   {t,r} & t & {s,r} \\
   {s,t,r} & {s,t} & {s,r} \\
-  $\varepsilon$ & $\varepsilon$ & $\varepsilon$
+  $\emptyset$ & $\emptyset$ & $\emptyset$
 \end{tabular}
 $$
 %
+
 \begin{center}
   \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
       
@@ -760,7 +761,7 @@ $$
       \node[state,accepting, fill=yellow, draw=red] (d) [below=of a] {$s,t,r$}; 
       \node[state,accepting, fill=yellow] (b) [right=of d] {$s,t$};   
       \node[state](s) [right=of b, draw=red](s) {$\textsl{$s$}$};
-      \node[state, accepting, fill=yellow, draw=red] (e) [right=of s]  {$\textsl{$\varepsilon$}$};
+      \node[state, accepting, fill=yellow, draw=red] (e) [right=of s]  {$\textsl{$\emptyset$}$};
 
        \path[->] 
           (s) edge node {\tiny b} (e)       

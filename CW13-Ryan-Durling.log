@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 20:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 20:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1045,12 +1045,12 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (34.17505pt too wide) in paragraph at lines 805--807
+Overfull \hbox (34.17505pt too wide) in paragraph at lines 806--808
 [][] 
  []
 
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 815--817
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 816--818
 [][] 
  []
 
@@ -1060,26 +1060,12 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 860--862
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 861--863
 [][] 
  []
 
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 870--872
-[][] 
- []
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no ] in font nullfont!
-
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 901--903
-[][] 
- []
-
-
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 911--913
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 871--873
 [][] 
  []
 
@@ -1088,92 +1074,106 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 952--954
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 902--904
+[][] 
+ []
+
+
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 912--914
+[][] 
+ []
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 953--955
 [][] 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 983--983
+Underfull \hbox (badness 10000) in paragraph at lines 984--984
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 983--983
+Underfull \hbox (badness 10000) in paragraph at lines 984--984
 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 983--985
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 984--986
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 994--996
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 995--997
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1020--1022
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1021--1023
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1034--1036
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1035--1037
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1059
+Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
 
  []
 
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 1059--1061
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 1060--1062
 [][] 
  []
 
 [11]
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1098--1100
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1099--1101
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1110--1112
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1111--1113
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1122--1124
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1123--1125
 [][] 
  []
 
 
-Overfull \hbox (41.47504pt too wide) in paragraph at lines 1137--1139
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 1138--1140
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1172--1174
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1173--1175
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1183--1185
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1184--1186
 [][] 
  []
 
 
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1221--1223
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1222--1224
 [][] 
  []
 
 [12]
-Overfull \hbox (65.56506pt too wide) in paragraph at lines 1244--1246
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 1245--1247
 [][] 
  []
 
@@ -1181,7 +1181,7 @@ Overfull \hbox (65.56506pt too wide) in paragraph at lines 1244--1246
 Here is how much of TeX's memory you used:
  18626 strings out of 493633
  381888 string characters out of 3143378
- 573802 words of memory out of 3000000
+ 573800 words of memory out of 3000000
  21506 multiletter control sequences out of 15000+200000
  18885 words of font info for 81 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -1204,7 +1204,7 @@ bols/msbm10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xy
 atip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xybtip1
 0.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmat11.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmbt11.pfb>
-Output written on CW13-Ryan-Durling.pdf (13 pages, 185762 bytes).
+Output written on CW13-Ryan-Durling.pdf (13 pages, 186024 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
