@@ -580,7 +580,7 @@ find the decimal number represented by this word assuming that it is
 
 
 %********************
-\newpage
+
 \bigskip
 \noindent
 %
@@ -967,8 +967,33 @@ S \to SS, \quad S \to L0L0L, \qquad  L \to \varepsilon, \quad L \to 1 L, \quad L
 %
 \begin{enumerate}
 \item[(a)] Give a derivation for the string $101101$.
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+        		S $\to$ L0L0L\\ \\
+		L $\to$ \uline{L}0L0L replace with L $\to$ 1L = 1L0L0L \\
+		L $\to$ 1\uline{L}0L0L replace with L $\to$ $\varepsilon$ = 10L0L \\
+		L $\to$ 10L0\uline{L} replace with L $\to$ 1L = 10L01L \\
+		L $\to$ 10L01\uline{L} replace with L $\to$ $\varepsilon$ = 10L01 \\
+		L $\to$ 10\uline{L}01 replace with L $\to$ 1L = 101L01 \\
+		L $\to$ 101\uline{L}01 replace with L $\to$ 1L = 1011L01 \\
+		L $\to$ 1011\uline{L}01 replace with L $\to$ $\varepsilon$= 101101 \\		
+        }
+     }
+  }
+\end{itemize}
 
 \item[(b)] Describe in English the language of this grammar.
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+        		Any language consisting of at least two zero's.
+       }
+     }
+  }
+\end{itemize}
 \end{enumerate}
 
 %**********************

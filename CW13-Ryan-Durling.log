@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 04:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 17:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -985,7 +985,7 @@ Overfull \hbox (58.26508pt too wide) in paragraph at lines 575--577
 [][] 
  []
 
-[7] <xymatrix 4x1 228>
+<xymatrix 4x1 228>
 Underfull \hbox (badness 10000) in paragraph at lines 665--665
 
  []
@@ -1020,7 +1020,7 @@ Overfull \hbox (58.26508pt too wide) in paragraph at lines 665--667
 [][] 
  []
 
-
+[7]
 Overfull \hbox (58.26508pt too wide) in paragraph at lines 679--681
 [][] 
  []
@@ -1035,7 +1035,7 @@ Overfull \hbox (34.17505pt too wide) in paragraph at lines 711--713
 [][] 
  []
 
-[8] [9] <xymatrix 5x1 427>
+[8] <xymatrix 5x1 427>
 Missing character: There is no [ in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -1054,7 +1054,7 @@ Overfull \hbox (41.47504pt too wide) in paragraph at lines 815--817
 [][] 
  []
 
-[10]
+[9]
 Missing character: There is no [ in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -1092,11 +1092,31 @@ Overfull \hbox (41.47504pt too wide) in paragraph at lines 952--954
 [][] 
  []
 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--983
+
+ []
+
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 983--985
+[][] 
+ []
+
+
+Overfull \hbox (65.56506pt too wide) in paragraph at lines 994--996
+[][] 
+ []
+
 [11] [12] (./CW13-Ryan-Durling.aux) ) 
 Here is how much of TeX's memory you used:
  18625 strings out of 493633
  381876 string characters out of 3143378
- 573801 words of memory out of 3000000
+ 573802 words of memory out of 3000000
  21505 multiletter control sequences out of 15000+200000
  18885 words of font info for 81 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -1120,7 +1140,7 @@ ic/xyatip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xy
 btip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmat1
 1.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmbt11.pfb
 >
-Output written on CW13-Ryan-Durling.pdf (12 pages, 181042 bytes).
+Output written on CW13-Ryan-Durling.pdf (12 pages, 181836 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
