@@ -528,7 +528,7 @@ find the decimal number represented by this word assuming that it is
 		0.5 $\times$ 2 = 1 $\to$ 1 \\
 		1.1 \\
 		\\
-		100001.1
+		100001.1 \\ \\
 		1.000011 $\times$ $2^5$ = 100001.1 \\
 		E = 5 + 127 = 132 = 10000100 \\
 		F = 000011 \\ \\
@@ -890,7 +890,7 @@ Find a regular expression representing $L(A)$.
 	     \node[state, accepting, fill=yellow] (q) [right=of u] {$q$};
 
 	     \path[->]
-	       (s) edge node {\tiny {0,1}} (p)
+	       (s) edge node {\tiny {1}} (p)
 	       (s) edge [loop below] node {\tiny {0,1}} (p)
 	       (p) edge node {\tiny {0,1}} (u)
 	       (u) edge node {\tiny {0,1}} (q)
@@ -954,7 +954,7 @@ to a finite automaton accepting it.
 \end{itemize}
 %*********************
 
-
+\newpage
 \medskip
 \noindent
 %
