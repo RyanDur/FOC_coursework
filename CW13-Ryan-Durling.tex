@@ -865,7 +865,8 @@ $\{0,1\}$ that begin with $01$ and do not end with $11$. Find a regular expressi
     \item[] {
       \fbox{
         \parbox{\textwidth}{\centering
-		01((0 $\cup$ 1)*(0 $\cup$ 01))*         }
+		01((0 $\cup$ 1)*(0 $\cup$ 01))*        
+        }
      }
   }
 \end{itemize}
@@ -877,8 +878,39 @@ $\{0,1\}$ that begin with $01$ and do not end with $11$. Find a regular expressi
 %
 10. {\bf (6\%)} Design a (deterministic or nondeterministic) finite automaton $A$ such that $L(A)$ consists of all strings over the alphabet $\{0,1\}$ whose third symbol from the right end is $1$ (for example, 100101 is in $L(A)$, but 100011 is not). 
 Find a regular expression representing $L(A)$. 
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+          \begin{center}
+	   \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
+	     \node[state, initial] (s) {$s$};
+	     \node[state] (p) [right=of s] {$p$};
+	     \node[state] (u) [right=of p] {$u$};
+	     \node[state, accepting, fill=yellow] (q) [right=of u] {$q$};
 
+	     \path[->]
+	       (s) edge node {\tiny {0,1}} (p)
+	       (s) edge [loop below] node {\tiny {0,1}} (p)
+	       (p) edge node {\tiny {0,1}} (u)
+	       (u) edge node {\tiny {0,1}} (q)
+	     ;
+            \end{tikzpicture}
+          \end{center}
+        }
+     }
+  }
+\end{itemize}
 
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{\centering
+		(0 $\cup$ 1)*1(0 $\cup$ 1)(0 $\cup$ 1)
+        }
+     }
+  }
+\end{itemize}
 %**********************
 
 \medskip
