@@ -844,14 +844,14 @@ $\{0,1\}$ that begin with $01$ and do not end with $11$. Find a regular expressi
 	     	(s) edge node {\tiny 0} (p)
 		(s) edge node {\tiny 1} (u)
 		(u) edge [loop left] node {\tiny 1} (u)
-		(u) edge [loop right] node {\tiny 1} (u)
+		(u) edge [loop right] node {\tiny 0} (u)
 		(p) edge node {\tiny 0} (u)
 		(p) edge node {\tiny 1} (q)
 		(q) edge node {\tiny 1} (v)
 		(q) edge [bend left] node {\tiny 0} (t)
-		(t) edge [bend left] node {\tiny 1} (q)
+		(t) edge [bend left, swap] node {\tiny 1} (q)
 		(t) edge [loop right] node {\tiny 0} (t)
-		(v) edge node {\tiny 0} (t)
+		(v) edge [swap] node {\tiny 0} (t)
 		(v) edge [loop left] node {\tiny 1} (v)
 	      ;
 	   \end{tikzpicture}
@@ -919,9 +919,39 @@ Find a regular expression representing $L(A)$.
 11. {\bf (8\%)} Convert the regular language 
 $L\bigl[\,x\bigl((y\cup x)^\ast x\bigr)^\ast y\,\bigr]$
 to a finite automaton accepting it.
-
-
-
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+          \begin{center}
+	   \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
+	     \node[state, initial] (s) {$s$};
+	     \node[state] (p) [below=of s] {$p$};
+	     \node[state] (u) [right=of s] {$u$};
+	     \node[state, accepting, fill=yellow] (q) [right=of u] {$q$};
+	     \node[state] (t) [below=of u] {$t$};
+	     \node[state] (r) [right=of t] {$r$};
+	     
+	     \path[->]
+  	       (s) edge node {\tiny y} (p)
+	       (s) edge node {\tiny x} (u)
+	       (p) edge [loop left] node {\tiny x} (p)
+	       (p) edge [loop below] node {\tiny y} (p)
+	       (u) edge [bend left] node {\tiny y} (q)
+	       (u) edge node {\tiny x} (t)
+	       (t) edge node {\tiny y} (q)
+	       (t) edge [loop below] node {\tiny x} (t)
+	       (q) edge [bend left, swap] node {\tiny x} (u)
+	       (q) edge node {\tiny y} (r)
+	       (r) edge node {\tiny x} (t)
+	       (r) edge [loop right] node {\tiny y} (r)
+	     ;
+           \end{tikzpicture}
+          \end{center}
+        }
+     }
+  }
+\end{itemize}
 %*********************
 
 

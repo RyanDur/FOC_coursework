@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 03:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.1.8)  24 JAN 2014 03:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1078,12 +1078,21 @@ Overfull \hbox (41.47504pt too wide) in paragraph at lines 911--913
 [][] 
  []
 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (41.47504pt too wide) in paragraph at lines 952--954
+[][] 
+ []
+
 [11] [12] (./CW13-Ryan-Durling.aux) ) 
 Here is how much of TeX's memory you used:
- 18620 strings out of 493633
- 381771 string characters out of 3143378
+ 18625 strings out of 493633
+ 381876 string characters out of 3143378
  573801 words of memory out of 3000000
- 21500 multiletter control sequences out of 15000+200000
+ 21505 multiletter control sequences out of 15000+200000
  18885 words of font info for 81 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  63i,20n,76p,3249b,971s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1106,7 +1115,7 @@ ic/xyatip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xy
 btip10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmat1
 1.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/xypic/xycmbt11.pfb
 >
-Output written on CW13-Ryan-Durling.pdf (12 pages, 179380 bytes).
+Output written on CW13-Ryan-Durling.pdf (12 pages, 181093 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
