@@ -809,7 +809,7 @@ What is the language of this automaton.
 \begin{itemize}
     \item[] {
       \fbox{
-        \parbox{\textwidth}{
+        \parbox{\textwidth}{\centering
       		This language accepts any number of a's and b's.
         }
      }
@@ -826,6 +826,49 @@ What is the language of this automaton.
 Design a (deterministic or nondeterministic) finite
 automaton $A$ such that $L(A)$ consists of all strings over the alphabet
 $\{0,1\}$ that begin with $01$ and do not end with $11$. Find a regular expression representing the language $L(A)$.
+
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+          \begin{center}
+	   \begin{tikzpicture}[shorten >=1pt,node distance=2cm,on grid,auto] [!h]
+	     \node[state, initial] (s) {$s$};
+	     \node[state] (p) [right=of s] {$p$};
+	     \node[state] (u) [below=of s] {$u$};
+	     \node[state, accepting, fill=yellow] (q) [right=of p] {$q$};
+	     \node[state, accepting, fill=yellow] (t) [right=of q] {$t$};
+	     \node[state] (v) [below=of q] {$v$};
+				
+	     \path[->]
+	     	(s) edge node {\tiny 0} (p)
+		(s) edge node {\tiny 1} (u)
+		(u) edge [loop left] node {\tiny 1} (u)
+		(u) edge [loop right] node {\tiny 1} (u)
+		(p) edge node {\tiny 0} (u)
+		(p) edge node {\tiny 1} (q)
+		(q) edge node {\tiny 1} (v)
+		(q) edge [bend left] node {\tiny 0} (t)
+		(t) edge [bend left] node {\tiny 1} (q)
+		(t) edge [loop right] node {\tiny 0} (t)
+		(v) edge node {\tiny 0} (t)
+		(v) edge [loop left] node {\tiny 1} (v)
+	      ;
+	   \end{tikzpicture}
+         \end{center}
+        }
+     }
+  }
+\end{itemize}
+
+\begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{\centering
+		01((0 $\cup$ 1)*(0 $\cup$ 01))*         }
+     }
+  }
+\end{itemize}
 
 %******************
 
