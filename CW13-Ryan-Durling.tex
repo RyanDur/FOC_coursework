@@ -989,7 +989,7 @@ S \to SS, \quad S \to L0L0L, \qquad  L \to \varepsilon, \quad L \to 1 L, \quad L
     \item[] {
       \fbox{
         \parbox{\textwidth}{
-        		Any language consisting of at least two zero's.
+        		Any language consisting of at least two zeros.
        }
      }
   }
@@ -1004,10 +1004,37 @@ S \to SS, \quad S \to L0L0L, \qquad  L \to \varepsilon, \quad L \to 1 L, \quad L
 %
 13. {\bf (6\%)} Construct context free grammars for the following languages
 %
-\begin{align*}
-& (a) \qquad \{ w \in \{0,1\}^* \mid w \text{ starts and ends with different symbols}\},\\
-& (b) \qquad  \{ w \in \{0,1\}^* \mid \text{ the length of $w$ is even}\}
-\end{align*}
+\begin{itemize}
+ \item[(a)] {$\qquad \{ w \in \{0,1\}^* \mid w \text{ starts and ends with different symbols}\}$}
+ \begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+        		S $\to$ $\varepsilon$ \\
+        		S $\to$ 0L1 \\
+		S $\to$ 1L0 \\ \\
+		L $\to$ $\varepsilon$ \\
+		L $\to$ L1 \\
+		L $\to$ L0
+         }
+     }
+  }
+\end{itemize}
+ \item[(b)] {$\qquad  \{ w \in \{0,1\}^* \mid \text{ the length of $w$ is even}\}$}
+  \begin{itemize}
+    \item[] {
+      \fbox{
+        \parbox{\textwidth}{
+        		S $\to$ $\varepsilon$ \\
+        		S $\to$ 0S1 \\
+		S $\to$ 1S0 \\ 
+		S $\to$ 0S0 \\
+		S $\to$ 1S1
+          }
+     }
+  }
+\end{itemize}
+\end{itemize}
 
 
 
